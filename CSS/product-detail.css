@@ -1,0 +1,387 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+ul{
+    list-style: none;
+}
+/* CSS LOGIN-BAR */
+.top-bar {
+    background:#000;
+    font-size: 12px;
+    font-weight: 700;
+    padding-top:10px;
+    padding-bottom: 0px;
+    padding-right: 10px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+ 
+.top-bar ul li{
+    display: inline;
+}
+ 
+.top-bar ul p{
+    display:inline;
+}
+ 
+.top-bar ul li a:link{
+    text-decoration:none;
+}
+ 
+.top-bar ul{
+    color:#FFF;
+}
+ 
+.top-bar ul li a:visited
+{
+    color: #FFF;
+    text-decoration: none;
+}
+ 
+.login a:hover{
+    padding-right: 30px;
+    font-weight: 100;
+}
+/* CSS LOGIN-BAR */
+ 
+ 
+/*CSS NAVIGATION */
+.shop-logo{
+    margin: 0px;
+    text-align: left;
+    padding-left: 20px;
+}
+.nav-style-out{
+    padding-top: 10px;
+    padding-left: 0px;
+}
+ 
+.nav-style-out{
+    position:fixed;
+    background:#FFF;
+    color:#000;
+    width:-15px;
+    height:100%;
+}
+.nav-style-out .mainnav{
+    padding-top:10px;
+    padding-bottom:50px;
+    color:#000
+}
+.list ul li a:link{
+    text-decoration: none;
+    font-weight: 700;
+    color:#000;
+    padding-bottom: 100px;
+}
+.list ul li{
+    padding-bottom: 10px;
+}
+ .list ul li a:visited{
+    color:#000;
+}
+/*CSS NAVIGATION */
+
+
+/* CSS MAIN */
+.all-detail{
+    text-align: center;
+    /* margin-left: auto;
+    margin-right: auto; */
+}
+.main-theme{
+    text-align: center;
+    width:100%;
+}
+.selection{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+    width:1300px;
+}
+/* CSS MENU */
+#menu{
+    text-align: justify;
+    background: #D3D3D3;
+    width:100%;
+    padding-left:5px;
+    
+}
+#menu ul li{
+    display:inline;   
+}
+ 
+#menu ul li a:link{
+    text-decoration:none; 
+    color:#000;
+}
+
+#menu ul li a:visited{
+    color:#000;
+}
+ 
+.contain-fluid {
+    padding-bottom:10px;
+    height:10px;
+}
+.link {
+    color:darkgray;
+    text-decoration:none;
+}
+.link a:hover{
+    color:none;
+}
+
+.product-block{
+    float:left
+}
+.information.img{
+    width:30%;
+    text-align: left;
+}
+.product{
+    text-align:left;
+}
+.information{
+    display: flex;
+    margin:50px
+}
+.describe{
+    padding-left: 50px;
+    width: 100%;
+}
+.describe  h5{
+    color:#D3D3D3;
+}
+.describe h4,h5{
+    text-align: left;
+}
+.product-size{
+    padding:5px;
+}
+.product-size a:hover{
+    color: #FFF;
+}
+/* CSS MAIN */
+
+
+/* CSS SELECTOR */
+.other-product h4{
+    margin:60px;
+    font-size: 30px;
+}
+.container-chuaao{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 15px;
+}
+.pro-sales{
+    top: 10px;
+    left: 10px;
+    color: #f94c43;
+}
+.pro-sales{
+    position: absolute;
+    font-size: 12px;
+    line-height: 1;
+    padding: 5px 10px;
+    font-weight: bold;
+    z-index: 9;
+    background: #fff;
+    border: 1px solid #ededed;
+}
+.pro-loop {
+    display: block;
+    position: relative; 
+    height: 100%;
+    margin-bottom: 110px;
+    padding-right: 200px;
+}
+.product-img{
+    height:300px;
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    perspective: 1000px;
+}
+.product-img-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+}
+  
+.product-img:hover .product-img-inner {
+    transform: rotateY(180deg);
+}
+  
+.product-img-front, .product-img-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+  
+.product-img-front {
+    background-color: #bbb;
+    color: black;
+}
+  
+.product-img-back {
+    background-color:#FFF;
+    color: white;
+    transform: rotateY(180deg);
+}
+ 
+.product-namedetail h3 a{
+    font-size: 15px;
+    line-height: 10px;
+    overflow: hidden;
+    font-weight:bold;
+}
+.product-detail{
+    padding-bottom: 20px ;
+    text-align: center;
+}
+.product-namedetail h3 a{
+    font-size: 15px;
+    line-height: 10px;
+    overflow: hidden;
+    font-weight:bold;
+}
+.product-price{
+    color:red;
+    font-style: italic;
+    font-weight:bold;
+    font-size: large;
+}
+.product-size button{
+    width:40px;
+    height:40px;
+    margin:0 5px;
+    background:#696969;
+    border:1px solid #696969;
+    color:#000;
+}
+.product-size button:hover{
+    color: #FFF;
+    background-color: #000000;
+}
+.add-cart-buy{
+    text-align: center;
+}
+.add-cart{
+    width:100%;
+    text-align: center;
+    text-transform: uppercase;
+    border:1px solid #000;
+    padding:5px;
+    margin:5px;
+    background-color: #FFF;
+}
+
+.buy{
+    width:100%;
+    text-align: center;
+    color:#FFF;
+    font-size: large;
+    text-transform: uppercase;
+    border:1px solid #000;
+    padding:5px;
+    margin:5px;
+    background:#000;
+}
+/* CSS SELECTOR */
+ 
+ 
+/* CSS BUTTON */
+.action_btn button{
+    background-color: #696969;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-weight:bold; 
+}
+.action_btn button:hover{
+    transform:scale(0.9)
+}
+.action_btn{
+    visibility:hidden;
+    opacity:0;
+}
+.product-img:hover .action_btn{
+    visibility:visible;
+    opacity:100;
+    transition:0.5s;
+}
+.product-img:hover .action_btn{
+    margin-top: -58px;
+} 
+/* CSS BUTTON */
+ 
+ 
+/*CSS FOOTER */
+.footer .fter-container .end{
+    text-align:center ;
+}
+ #footer-content p{
+    margin: 10px;
+    font-size: 13px;
+    line-height: 15px;
+}
+.end h4{
+    color:#000;
+    font-weight: 500;
+    font-style: italic;
+ 
+}
+.main-theme , footer {
+    padding-left: 150px;  
+}
+#fter-container{
+    position:relative;   
+    display:flex;
+    width:1300px;
+    padding-left: 0px;
+    text-align: center;
+}
+ 
+.end{
+    width:450px;
+    margin:30px;
+    color:#000;
+}
+/* CSS FOOTER */
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+ 
